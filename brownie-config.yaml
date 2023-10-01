@@ -1,0 +1,16 @@
+dependencies:
+  - smartcontractkit/chainlink@2.0.0
+  - OpenZeppelin/openzeppelin-contracts@4.1.0
+compiler:
+  solc:
+    remappings:
+      - "@openzeppelin=OpenZeppelin/openzeppelin-contracts@4.1.0"
+      - "@chainlink=smartcontractkit/chainlink@2.0.0"
+wallets:
+  from_key: ${PRIVATE_KEY}
+networks:
+  mainnet-fork:
+    verify: False
+  sepolia:
+    verify: False
+
