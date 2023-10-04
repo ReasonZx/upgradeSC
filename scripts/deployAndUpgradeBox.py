@@ -42,7 +42,7 @@ def upgradeBox(proxyBoxSC, newImplAddress, proxyAdminContract=None, initializer=
             tx = proxyBoxSC.upgradeTo(newImplAddress, {'from': account})
     tx.wait(1)
 
-    print("SmartContracr upgraded!")
+    print("SmartContract upgraded!")
 
     return tx
 
