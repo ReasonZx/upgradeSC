@@ -18,6 +18,7 @@ For example Sepolia testnet:
 $export PUBLIC_KEY="your_public_key"
 $export PRIVATE_KEY="your_private_key"
 $export WEB3_INFURA_PROJECT_ID="your_infura_project_id"
+$brownie networks add Ethereum sepolia host="https://sepolia.infura.io/v3/your_infura_project_id" chainid=11155111
 ```
 Then deploy the smart contract:
 ```
